@@ -1,0 +1,96 @@
+/* Navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.navbar {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  color: #ffffff;
+  padding-bottom: 1rem;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero {
+  : cover;
+  padding-bottom: 5rem;
+  image-resolution: from-image;
+}
+
+/* about
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.about { 
+    text-align: center;
+    padding: 60px;
+    margin: 5rem;
+}
+.fishbookabout {
+    position: relative;
+}
+
+/* Divider1
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.divider1 {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  color: #ffffff;
+  padding: 5rem;
+  margin:auto;
+  text-align: center;
+}
+/* about
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.fisherman { 
+    text-align: center;
+    padding: 60px;
+    margin: 5rem;
+}
+.fishermanpic {
+    position: relative;
+}
+
+/* Divider2
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.divider2 {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  color: #ffffff;
+  padding: 5rem;
+  margin:auto;
+  text-align: center;
+}
+
+/* Buy
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.buy {
+  padding: 3rem;
+  margin:auto;
+  text-align: center;
+}
+.cover {
+  position: relative;
+  padding: inherit;
+    align-content: center;
+}
+
+/* AboutAI
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.aboutai .container {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  color: #ffffff;
+  margin:auto;
+  text-align: center;
+}
+.0ne-half column {
+  position: relative;
+  text-align: center;
+  padding: 5rem;
+}
+.0ne-half column2 {
+  position: relative;
+  text-align: center;
+  padding: 5rem;
+}
+.text {
+font-family: 'Dancing Script', cursive;
+font-family: 'Ledger', serif;
+}
