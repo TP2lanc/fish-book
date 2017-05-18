@@ -1,50 +1,77 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+    border-radius: 100px;
+}
+
 /* Navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .navbar {
   background-image: url("../images/background.png");
   background-size: cover;
   color: #ffffff;
-  padding-bottom: 1rem;
 }
+.navbar-item {
+    position: relative;
+    float:left;
+    padding: 10px 25px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+ul {
+    list-style: none;
+}  
 
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
   : cover;
-  padding-bottom: 5rem;
   image-resolution: from-image;
+}
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .hero: url("images/BrownieBohero.png")
 }
 
 /* about
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .about { 
     text-align: center;
-    padding: 60px;
-    margin: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
+.abouttext {
+    padding-top: 15rem;
+    padding-right: 13rem;
+    padding-left: 13rem;
+}
+
 .fishbookabout {
-    position: relative;
+    padding: 0;
 }
 
 /* Divider1
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .divider1 {
-  background-image: url("../images/background.png");
-  background-size: cover;
-  color: #ffffff;
-  padding: 5rem;
-  margin:auto;
-  text-align: center;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
-/* about
+/* fisherman
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .fisherman { 
     text-align: center;
-    padding: 60px;
-    margin: 5rem;
+    padding: 50px;
 }
 .fishermanpic {
     position: relative;
+}
+.fishandfly {
+   padding-left: 7em;
+    margin-bottom: 5em;
 }
 
 /* Divider2
@@ -53,43 +80,51 @@
   background-image: url("../images/background.png");
   background-size: cover;
   color: #ffffff;
-  padding: 5rem;
-  margin:auto;
-  text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    text-align: center;
 }
 
 /* Buy
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .buy {
-  padding: 3rem;
-  margin:auto;
+  padding: 15rem;
   text-align: center;
+}
+.purchase {
+  align-content: center;
+  padding-top: 7rem;
 }
 .cover {
   position: relative;
-  padding: inherit;
-    align-content: center;
+  padding: 0;
+  align-content: center;
+  border: 60px solid #455bad;
 }
+
 
 /* AboutAI
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.aboutai .container {
+.aboutai {
   background-image: url("../images/background.png");
   background-size: cover;
   color: #ffffff;
-  margin:auto;
   text-align: center;
+  padding: 5rem 6rem 6rem 5rem;
 }
-.0ne-half column {
-  position: relative;
-  text-align: center;
-  padding: 5rem;
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+    font-size: .5rem;
+    font-weight: 200;
+    margin-top: 5em;
 }
-.0ne-half column2 {
-  position: relative;
-  text-align: center;
-  padding: 5rem;
+
+.sun {
+    float: left;
 }
+
 .text {
 font-family: 'Dancing Script', cursive;
 font-family: 'Ledger', serif;
