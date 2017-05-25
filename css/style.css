@@ -142,7 +142,7 @@ font-family: 'Ledger', serif;
   background-size: cover;
   color: #455bad;
   text-align: center;
-  padding: 15rem 15rem 15rem 15rem;
+  padding: 10rem 10rem 10rem 10rem;
 }
 .paycard {
     margin: 1rem 1rem 1rem 1rem;
@@ -150,10 +150,12 @@ font-family: 'Ledger', serif;
     padding: 5rem;
     box-shadow: 2rem;
 }
+.payherocontainer {
+    margin-bottom: 4rem;
+}
 .paycover {
-  padding: 0;
   align-content: center;
-  border: 10px solid #455bad;
+  border: 20px solid #455bad;
 }
 
 .label {
@@ -162,4 +164,12 @@ font-family: 'Ledger', serif;
 .securitycodeInput {
     font-size: 30%;
 }
-  
+/* Contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.contact {
+  background-image: url("../images/authorbkgrnd.png");
+  background-size: cover;
+  color: #455bad;
+  text-align: center;
+  padding: 10rem 10rem 10rem 10rem;
+}
